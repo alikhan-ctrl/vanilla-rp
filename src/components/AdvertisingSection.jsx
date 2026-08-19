@@ -22,6 +22,7 @@ function AdvertisingSection() {
 
         <div className="mt-12 max-w-4xl sm:mt-14">
 
+          {/* Реклама */}
           <h2 className="text-xl font-semibold text-[#29251d]">
             Реклама
           </h2>
@@ -29,13 +30,13 @@ function AdvertisingSection() {
           <div className="mt-5 divide-y divide-[#e8e1d2] border-y border-[#e8e1d2]">
 
             {[
-              ["~1 день", "30 ⭐"],
-              ["~3 дня", "40 ⭐"],
-              ["~5 дней", "50 ⭐"],
+              ["~1 день", "30 ⭐ / 50 ₽ / 275 ₸"],
+              ["~3 дня", "40 ⭐ / 60 ₽ / 330 ₸"],
+              ["~5 дней", "50 ⭐ / 70 ₽ / 385 ₸"],
             ].map(([name, price]) => (
               <div
                 key={name}
-                className="flex flex-col gap-1 py-5 sm:flex-row sm:items-center sm:justify-between sm:gap-4"
+                className="flex flex-col gap-2 py-5 sm:flex-row sm:items-center sm:justify-between sm:gap-4"
               >
                 <span className="text-[#625c50]">
                   {name}
@@ -49,6 +50,7 @@ function AdvertisingSection() {
 
           </div>
 
+          {/* Реклама конкурсом */}
           <h2 className="mt-12 text-xl font-semibold text-[#29251d]">
             Реклама конкурсом
           </h2>
@@ -56,13 +58,13 @@ function AdvertisingSection() {
           <div className="mt-5 divide-y divide-[#e8e1d2] border-y border-[#e8e1d2]">
 
             {[
-              ["~30 человек", "40 ⭐"],
-              ["~40 человек", "50 ⭐"],
-              ["~50 человек", "60 ⭐"],
+              ["~30 человек", "40 ⭐ / 60 ₽ / 330 ₸"],
+              ["~40 человек", "50 ⭐ / 70 ₽ / 385 ₸"],
+              ["~50 человек", "60 ⭐ / 80 ₽ / 440 ₸"],
             ].map(([name, price]) => (
               <div
                 key={name}
-                className="flex flex-col gap-1 py-5 sm:flex-row sm:items-center sm:justify-between"
+                className="flex flex-col gap-2 py-5 sm:flex-row sm:items-center sm:justify-between sm:gap-4"
               >
                 <span className="text-[#625c50]">
                   {name}
@@ -80,19 +82,20 @@ function AdvertisingSection() {
             Приз за наш счёт.
           </p>
 
+          {/* Дополнительно */}
           <h2 className="mt-12 text-xl font-semibold text-[#29251d]">
             Дополнительно
           </h2>
 
           <div className="mt-5 divide-y divide-[#e8e1d2] border-y border-[#e8e1d2]">
 
-            <div className="flex flex-col gap-1 py-5 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex flex-col gap-2 py-5 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
               <span className="text-[#625c50]">
                 Закрепление в канале
               </span>
 
               <span className="font-medium text-[#9a7b32]">
-                15 ⭐
+                15 ⭐ / 30 ₽ / 165 ₸
               </span>
             </div>
 
@@ -102,12 +105,14 @@ function AdvertisingSection() {
               </p>
 
               <p className="mt-1 text-sm leading-6 text-[#625c50]">
-                2 раза бесплатно, затем 3 раза — 15 ⭐
+                2 раза бесплатно, затем 3 раза —
+                15 ⭐ / 30 ₽ / 165 ₸
               </p>
             </div>
 
           </div>
 
+          {/* Важная информация */}
           <div className="mt-12 border-t border-[#e8e1d2] pt-8">
             <p className="text-sm leading-6 text-[#625c50]">
               Возвраты не принимаются. Мы не несём ответственности
