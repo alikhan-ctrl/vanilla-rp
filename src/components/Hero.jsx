@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function Hero() {
   return (
-    <section className="hero min-h-screen overflow-hidden bg-[#faf7ef]">
-      <div className="hero-content w-full max-w-6xl flex-col gap-10 px-4 py-16 sm:px-6 sm:py-20 lg:flex-row-reverse lg:justify-between lg:gap-16 lg:py-24">
+    <section className="min-h-[calc(100vh-65px)] bg-[#faf7ef]">
+      <div className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-5 py-16 sm:px-6 sm:py-20 lg:flex-row-reverse lg:items-center lg:justify-between lg:gap-16 lg:py-24">
 
         {/* Картинка */}
         <div className="order-2 w-full max-w-md lg:order-1">
@@ -36,8 +36,7 @@ function Hero() {
             <span>Telegram-сообщество</span>
           </div>
 
-          <div className="mt-7 flex flex-col gap-3 xs:flex-row sm:flex-row">
-
+          <div className="mt-7 flex flex-col gap-3 sm:flex-row">
             <a
               href="https://t.me/VAN1LLAPROJECTT"
               target="_blank"

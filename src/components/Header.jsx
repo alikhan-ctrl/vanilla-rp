@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className="border-b border-[#e8e1d2] bg-[#faf7ef]">
-      <div className="navbar mx-auto max-w-6xl px-4 sm:px-6">
+      <div className="mx-auto flex w-full max-w-6xl items-center px-5 py-3 sm:px-6">
 
         {/* Логотип */}
         <div className="navbar-start">
