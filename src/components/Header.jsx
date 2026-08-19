@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="border-b border-[#e8e1d2] bg-[#faf7ef]">
+    <header className="fixed top-0 left-0 z-50 w-full border-b border-[#e8e1d2] bg-[#faf7ef]">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-5 py-4 sm:px-6">
 
         {/* Логотип */}

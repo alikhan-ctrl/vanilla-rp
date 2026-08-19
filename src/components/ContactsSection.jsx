@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function ContactsSection() {
   return (
@@ -23,9 +23,26 @@ function ContactsSection() {
         <div className="mt-12 max-w-3xl divide-y divide-[#e8e1d2] border-y border-[#e8e1d2] sm:mt-14">
 
           {[
-            ["Владелец Telegram-канала", "@esh1lii", "https://t.me/esh1lii"],
-            ["Менеджер", "@perfect_norhings", "https://t.me/perfect_norhings"],
-            ["Создатель сайта", "@bibr375", "https://t.me/bibr375"],
+            [
+              "Владелец Telegram-канала",
+              "@esh1lii",
+              "https://t.me/esh1lii",
+            ],
+            [
+              "Совладелец Telegram-канала",
+              "@ICat_XD",
+              "https://t.me/ICat_XD",
+            ],
+            [
+              "Менеджер",
+              "@perfect_norhings",
+              "https://t.me/perfect_norhings",
+            ],
+            [
+              "Создатель сайта",
+              "@bibr375",
+              "https://t.me/bibr375",
+            ],
           ].map(([role, username, link]) => (
             <a
               key={username}
